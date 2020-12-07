@@ -1,0 +1,34 @@
+
+const {talks} = useStaticQuery(graphgl`
+    {
+        talks: allContentJson {
+            edges { 
+                node { 
+                    talk { 
+                        date 
+                        place 
+                        seminar 
+                    } 
+                } 
+            } 
+        }
+    }
+`);
+
+export const Talk = ({seminar, place, date}) => (
+    <ol>
+        <li>{seminar}, {place}, {date} </li>
+    </ol>
+);
+
+export const TalkList = ({talks}) => (
+    {talks
+        .map(({node}) =>(
+            <Talk 
+                seminar = {node.talk.seminar}
+                place = {node.talk.seminar}
+                date = {node.talk.date}/>
+            )
+        )
+    }
+);
