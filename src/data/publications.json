@@ -3,12 +3,67 @@
         "title": "Martingale transforms and the Hardy–Littlewood–Sobolev inequality for semigroups",
         "jrnl": "Potential Anal.",
         "jrnlinfo": "45 (2016), no. 4, 795–807",
-        "arxiv": "https://arxiv.org/abs/1506.01208"
+        "date": "2016-06-02", 
+        "collaborators": " ",
+        "link1name": "arxiv",
+        "link1url": "https://arxiv.org/abs/1506.01208",
+        "link2name": "journal",
+        "link2url": "https://link.springer.com/article/10.1007/s11118-016-9571-0",
+        "link3name": " ",
+        "link3url": " "
+    },
+
+    {
+        "title": "Hardy–Stein identity for non-symmetric Lévy processes and Fourier multipliers",
+        "jrnl": "J. Math. Anal. Appl.",
+        "jrnlinfo": "480 (2019), no. 1, 123383",
+        "date": "2019-12-1", 
+        "collaborators": "(with Rodrigo Banuelos)",
+        "link1name": "arxiv",
+        "link1url": "https://arxiv.org/abs/1702.06573",
+        "link2name": "journal",
+        "link2url": "https://www.sciencedirect.com/science/article/abs/pii/S0022247X19306511?via%3Dihub",
+        "link3name": " ",
+        "link3url": " "
+    },
+    
+    {
+        "title": "Deficit estimates for the logarithmic Sobolev inequality",
+        "jrnl": "submitted",
+        "jrnlinfo": "(2018)",
+        "date": "2018-5-16", 
+        "collaborators": "(with Emanuel Indrei)",
+        "link1name": "arxiv",
+        "link1url": "https://arxiv.org/abs/1805.06107",
+        "link2name": " ",
+        "link2url": " ",
+        "link3name": " ",
+        "link3url": " "
     },
     {
-        "title": "Martingale transforms and the Hardy–Littlewood–Sobolev inequality for semigroups",
-        "jrnl": "Potential Anal.",
-        "jrnlinfo": "45 (2016), no. 4, 795–807",
-        "arxiv": "https://arxiv.org/abs/1506.01208"
+        "title": "Instability results for the logarithmic Sobolev inequality and its application to related inequalities",
+        "jrnl": "submitted",
+        "jrnlinfo": "(2018)",
+        "date": "2018-5-16", 
+        "collaborators": " ",
+        "link1name": "arxiv",
+        "link1url": "https://arxiv.org/abs/1805.06272",
+        "link2name": " ",
+        "link2url": " ",
+        "link3name": " ",
+        "link3url": " "
+    },
+    {
+        "title": "Quantitative inequalities for the expected lifetime of Brownian motion",
+        "jrnl": "Michigan Math. J.",
+        "jrnlinfo": "Advance publication (2020)",
+        "date": "2020-6-26", 
+        "collaborators": " ",
+        "link1name": "arxiv",
+        "link1url": "https://arxiv.org/abs/1904.09565",
+        "link2name": "journal",
+        "link2url": "https://projecteuclid.org/euclid.mmj/1593136867#info",
+        "link3name": " ",
+        "link3url": " "
     }
 ]

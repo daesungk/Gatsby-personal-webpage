@@ -17,7 +17,9 @@ exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
     const result = await graphql(`
         query {
-            allMarkdownRemark {
+            allMarkdownRemark 
+            (sort: { order: DESC, fields: [frontmatter___date] })
+            {
                 edges {
                     node {
                         fields {
@@ -41,7 +43,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 }, 
             });
         } 
-        else if (edge.node.frontmatter.posttype === "teaching") {
+        else if (node.frontmatter.posttype === "teaching") {
             createPage({
                 path: node.fields.slug,
                 component: path.resolve(`./src/templates/teaching-post.js`),
@@ -49,8 +51,17 @@ exports.createPages = async ({ graphql, actions }) => {
                     slug: node.fields.slug, 
                 }, 
             });
-        else {
-        // else if (edge.node.frontmatter.posttype === "teaching") {
+        }
+        else if (node.frontmatter.posttype === "research") {
+            createPage({
+                path: node.fields.slug,
+                component: path.resolve(`./src/templates/research-post.js`),
+                context: {
+                    slug: node.fields.slug, 
+                }, 
+            });
+        }
+        else{
             createPage({
                 path: node.fields.slug,
                 component: path.resolve(`./src/templates/notes-post.js`),

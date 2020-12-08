@@ -25,6 +25,7 @@ export const TalksList = ({ children }) => (
                         seminar 
                         place 
                         date 
+                        type
                     } 
                 } 
             } 

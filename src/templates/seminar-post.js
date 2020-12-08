@@ -9,10 +9,16 @@ export default function SeminarPost({data}) {
     return (
     <Layout>
         <h2>
-            <small>{post.frontmatter.seminar}</small><br/>
             {post.frontmatter.title}
         </h2>
-        <h4>{post.frontmatter.speaker} ({post.frontmatter.affiliation}) </h4>
+        <div>
+            <p>
+                {post.frontmatter.seminar}<br/>
+                {post.frontmatter.speaker} ({post.frontmatter.affiliation}) <br/>
+                {post.frontmatter.date}, &nbsp;
+                {post.frontmatter.place}
+            </p>
+        </div>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )
@@ -28,6 +34,7 @@ export const query = graphql`
         speaker
         title
         posttype
+        place
       }
     }
   }

@@ -2,17 +2,64 @@
     {
         "seminar": "Seminar on non-local operators, probability and singularities",
         "place" : "in Zoom",
-        "date" : "Oct 2020"
+        "date" : "Oct 2020", 
+        "type" : "talk"
     },
+
     {
         "seminar": "Minisymposium at International Conference on Elliptic and Parabolic Problems",
         "place" : "Gaeta, Italy",
-        "date" : "May 2019"
+        "date" : "May 2019", 
+        "type" : "talk"
     },
+
     {
         "seminar": "AMS sectional meeting Special session on Stochastic processes",
         "place" : "Hartford",
-        "date" : "April 2019"
-    }
-]
+        "date" : "April 2019", 
+        "type" : "talk"
+    },
 
+    {
+        "seminar": "Probability seminar",
+        "place" : "University of Illinois at Urbana–Champaign",
+        "date" : "April 2019",
+        "type" : "talk"
+    },
+
+    {
+        "seminar": "Probability seminar",
+        "place" : "Purdue University",
+        "date" : "February 2019",
+        "type" : "talk"
+    },
+
+    {
+        "seminar": "Probability seminar",
+        "place" : "Seoul National University",
+        "date" : "March 2018",
+        "type" : "talk"
+    },
+
+    {
+        "seminar": "Probability seminar",
+        "place" : "Purdue University",
+        "date" : "September 2017",
+        "type" : "talk"
+    },
+
+    {
+        "seminar": "Probability seminar",
+        "place" : "University of Illinois at Urbana–Champaign",
+        "date" : "March 2017",
+        "type" : "talk"
+    },
+
+    {
+        "seminar": "Probability seminar",
+        "place" : "Purdue University",
+        "date" : "February 2016",
+        "type" : "talk"
+    }
+
+]

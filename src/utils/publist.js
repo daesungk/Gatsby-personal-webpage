@@ -9,7 +9,10 @@ function PublistFunction(data) {
                 {item.node.title}, &nbsp;
                 <b>{item.node.jrnl}</b>, &nbsp;
                 {item.node.jrnlinfo}. &nbsp;
-                <a href= {item.node.arxiv} >[arXiv]</a>
+                {item.node.collaborators} &nbsp;
+                <a href= {item.node.link1url}>{item.node.link1name}</a>&nbsp;
+                <a href= {item.node.link2url}>{item.node.link2name}</a>&nbsp;
+                <a href= {item.node.link3url}>{item.node.link3name}</a>
             </li>
         )
     );
@@ -26,7 +29,14 @@ export const PubList = ({ children }) => (
                         title
                         jrnl
                         jrnlinfo
-                        arxiv
+                        link1name
+                        link1url
+                        link2name
+                        link2url
+                        link3name
+                        link3url
+                        date
+                        collaborators
                     } 
                 } 
             } 
