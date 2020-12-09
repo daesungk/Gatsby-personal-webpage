@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master"
+      "deploy:github": "npm run build && node ./scripts/deploy-github"
   },
   "dependencies": {
     "@emotion/react": "^11.1.2",
