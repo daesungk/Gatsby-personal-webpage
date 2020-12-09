@@ -3,6 +3,19 @@ module.exports = {
         title: `Daesung Kim`, 
     },
     plugins: [
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: "gatsby-remark-copy-linked-files",
+                        options: {
+                            destinationDir: f => `resources/${f.name}`,
+                        },
+                    },
+                ],
+            },
+        },
         `gatsby-transformer-remark`,
         `gatsby-transformer-json`,
         {
