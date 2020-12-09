@@ -48,6 +48,17 @@ export default function Layout({ children }) {
                     <ListLink to="/seminar/">Seminar</ListLink> 
                 </ul>
             {children} 
+        <span
+            css={css`
+                position: fixed;
+                bottom: 10px ;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 12px;
+                `}
+        >
+            &copy;  2020 Daesung Kim
+        </span>
         </div>
     )
 }
