@@ -6,14 +6,7 @@ module.exports = {
         {
             resolve: `gatsby-transformer-remark`,
             options: {
-                plugins: [
-                    {
-                        resolve: "gatsby-remark-copy-linked-files",
-                        options: {
-                            destinationDir: f => `resources/${f.name}`,
-                        },
-                    },
-                ],
+                plugins: [`gatsby-remark-copy-linked-files`],
             },
         },
         `gatsby-transformer-remark`,
