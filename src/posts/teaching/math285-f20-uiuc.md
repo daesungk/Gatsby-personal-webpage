@@ -42,6 +42,7 @@ Lecture videos, course schedule, and other important notices and materials will 
 - Midterm 1: [Practice](https://daesungk.github.io/resources/teaching/math285f20/math285f20-mid1-practice.pdf), [Practice Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-mid1-practice-sol.pdf), [Exam Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-mid1-solution.pdf)
 - Midterm 2: [Practice](https://daesungk.github.io/resources/teaching/math285f20/math285f20-mid2-practice.pdf), [Practice Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-mid2-practice-sol.pdf), [Exam Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-mid2-solution.pdf)
 - Midterm 3: [Practice Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-mid3-practice-sol.pdf), [Exam Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-mid3-solution.pdf)
+- Final Exam: [Practice](https://daesungk.github.io/resources/teaching/math285f20/math285f20-final-practice.pdf), [Practice Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-final-practice-sol.pdf)
 - Quiz 2: [Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-quiz2-solution.pdf)
 - Quiz 3: [Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-quiz3-solution.pdf)
 - Quiz 4: [Solution](https://daesungk.github.io/resources/teaching/math285f20/math285f20-quiz4-solution.pdf)

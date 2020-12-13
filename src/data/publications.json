@@ -17,7 +17,7 @@
         "title": "Hardy–Stein identity for non-symmetric Lévy processes and Fourier multipliers",
         "jrnl": "J. Math. Anal. Appl.",
         "jrnlinfo": "480 (2019), no. 1, 123383",
-        "date": "2019-12-1", 
+        "date": "2019-12-01", 
         "collaborators": "(with Rodrigo Banuelos)",
         "link1name": "arxiv",
         "link1url": "https://arxiv.org/abs/1702.06573",
@@ -31,7 +31,7 @@
         "title": "Deficit estimates for the logarithmic Sobolev inequality",
         "jrnl": "submitted",
         "jrnlinfo": "(2018)",
-        "date": "2018-5-16", 
+        "date": "2018-05-16", 
         "collaborators": "(with Emanuel Indrei)",
         "link1name": "arxiv",
         "link1url": "https://arxiv.org/abs/1805.06107",
@@ -40,11 +40,12 @@
         "link3name": " ",
         "link3url": " "
     },
+
     {
         "title": "Instability results for the logarithmic Sobolev inequality and its application to related inequalities",
         "jrnl": "submitted",
         "jrnlinfo": "(2018)",
-        "date": "2018-5-16", 
+        "date": "2018-05-16", 
         "collaborators": " ",
         "link1name": "arxiv",
         "link1url": "https://arxiv.org/abs/1805.06272",
@@ -53,11 +54,26 @@
         "link3name": " ",
         "link3url": " "
     },
+
+    {
+        "title": "Stability for functional and geometric inequalities and a stochastic representation of fractional integrals and nonlocal operators",
+        "jrnl": "PhD Thesis",
+        "jrnlinfo": "(2019)",
+        "date": "2019-08-02", 
+        "collaborators": " ",
+        "link1name": "pdf",
+        "link1url": "https://daesungk.github.io/resources/research/thesis-daesungk.pdf",
+        "link2name": " ",
+        "link2url": " ",
+        "link3name": " ",
+        "link3url": " "
+    },
+
     {
         "title": "Quantitative inequalities for the expected lifetime of Brownian motion",
         "jrnl": "Michigan Math. J.",
         "jrnlinfo": "Advance publication (2020)",
-        "date": "2020-6-26", 
+        "date": "2020-06-26", 
         "collaborators": " ",
         "link1name": "arxiv",
         "link1url": "https://arxiv.org/abs/1904.09565",
